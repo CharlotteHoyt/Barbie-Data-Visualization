@@ -4,3 +4,6 @@ Barbie dataset from [Ana Cartola on Kaggle](https://www.kaggle.com/datasets/anac
 
 
 Barbie font generated with [TextStudio](https://www.textstudio.com/). 
+
+
+Barbie color palette from [SchemeColor](https://www.schemecolor.com/barbie-doll-pinks.php).
