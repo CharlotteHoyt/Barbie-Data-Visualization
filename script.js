@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
+    Highcharts.setOptions({
+        colors: ['#E0218A', '#ED5C9B', '#F18DBC', '#F7B9D7', '#FACDE5']
+    });
+
     const testChart1 = Highcharts.chart('testChart1', {
         chart: {
             type: 'bar'
@@ -23,6 +27,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }, {
             name: 'Item 3',
             data: [2, 4, 6]
+        }, {
+            name: 'Item 4',
+            data: [1, 5, 7]
+        }, {
+            name: 'Item 5',
+            data: [2, 4, 8]
         }]
     });
 
@@ -79,11 +89,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     },
                     {
                         name: 'Category 2',
-                        y: 55.7
+                        y: 22.9
                     },
                     {
                         name: 'Category 3',
                         y: 11.1
+                    },
+                    {
+                        name: 'Category 4',
+                        y: 7.4
+                    },
+                    {
+                        name: 'Category 5',
+                        y: 25.4
                     },
                 ]
             }
