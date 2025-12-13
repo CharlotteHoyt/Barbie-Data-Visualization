@@ -10,6 +10,19 @@ html {
     background-color: #FACDE5;
 }
 
+/*Header*/
+#header-image {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+/*Highcharts Visualizations*/
 .chart {
     width: 65%;
     height: auto;
@@ -20,15 +33,6 @@ html {
     border: 4px solid #E0218A;
     border-radius: 10px;
     box-shadow: 8px 8px 8px #ED5C9B;
-}
-
-#header-image {
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; 
+    background-color: #FFFFFF;
+    padding: 20px;
 }
