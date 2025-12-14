@@ -303,4 +303,58 @@ document.addEventListener('DOMContentLoaded', function () {
 
     });
 
+    const testChart5 = Highcharts.chart('testChart5', {
+        chart: {
+            type: 'pie'
+        },
+        title: {
+            text: 'Test Chart 5'
+        },
+        data: {
+            csvURL: 'data/Barbieverse_Characters.csv'
+            // csvURL: 'https://github.com/CharlotteHoyt/Barbie-Data-Visualization/blob/main/data/Barbieverse_Characters.csv'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>: {point.y}%'
+                }
+            },
+        },
+        series: [{
+            name: 'Gender'
+        }]
+    });
+
 });
+
+/*$(document).ready(function() {
+    var options = {
+        chart: {
+            renderTo: 'container',
+            type: 'pie'
+        },
+        title: {
+            text: 'Test Chart'
+        },
+        series: [{
+            data: []
+        }]
+    };
+
+    $.get('data.csv', function(data) {
+        var lines = data.split('\n');
+        
+        $.each(lines, function(lineNo, line) {
+            if (lineNo > 0) { 
+                var items = line.split(',');
+                options.series[0].data.push([items[0], parseFloat(items[1])]); 
+            }
+        });
+
+        var chart = new Highcharts.chart(options);
+    });
+});*/
