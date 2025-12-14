@@ -259,4 +259,48 @@ document.addEventListener('DOMContentLoaded', function () {
         ]
     });
 
+    const testChart4 = Highcharts.chart('testChart4', {
+        data: {
+            csv: 'data/Barbieverse_Characters.csv',
+            firstRowAsNames: true, 
+            itemDelimiter: ',',
+            lineDelimiter: '\n',
+
+            seriesMapping: [{
+                Movie: 0, 
+                Character_Identifier: 1, 
+                Character_Name: 2,
+                Barbie_Cast: 3,
+                Skin_Tone: 4, 
+                Eyes: 5,
+                Hair: 6,
+                Skin_Tone: 7,
+                Eyes: 8, 
+                Hair: 9,
+                Gender: 10,
+                Speaking_Voice: 11,
+                Singing_Voice: 12
+            }],
+        
+            complete: function (options) {
+                console.log("Data parsing complete. Series names loaded.");
+            }
+        },
+        chart: {
+            type: 'column',
+        },
+        title: {
+            text: 'Test Chart 4'
+        },
+        xAxis: {
+            minTickInterval: 20
+        },
+        yAxis: {
+            title: {
+                text: 'Count'
+            },
+        },
+
+    });
+
 });
