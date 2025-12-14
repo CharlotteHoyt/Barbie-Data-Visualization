@@ -13,6 +13,7 @@ html {
 /*Header*/
 #header-image {
     width: 50%;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -20,6 +21,12 @@ html {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none; 
+}
+
+@media screen and (max-width: 1000px) {
+    #header-image{
+        width: 95%;
+    }
 }
 
 /*Highcharts Visualizations*/
@@ -32,7 +39,7 @@ html {
     margin-bottom: 50px;
     border: 4px solid #E0218A;
     border-radius: 10px;
-    box-shadow: 8px 8px 8px #ED5C9B;
+    box-shadow: 10px 10px 10px #ED5C9B;
     background-color: #FFFFFF;
     padding: 20px;
 }
