@@ -190,24 +190,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 colorByPoint: true,
                 data: [
                     {
-                        name: 'Category 1',
-                        y: 33.2
+                        name: 'Female',
+                        y: 311
                     },
                     {
-                        name: 'Category 2',
-                        y: 22.9
-                    },
-                    {
-                        name: 'Category 3',
-                        y: 11.1
-                    },
-                    {
-                        name: 'Category 4',
-                        y: 7.4
-                    },
-                    {
-                        name: 'Category 5',
-                        y: 25.4
+                        name: 'Male',
+                        y: 211
                     },
                 ]
             }
