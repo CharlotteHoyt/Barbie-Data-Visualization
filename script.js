@@ -1,16 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    /*Highcharts.createElement('link', {
-        href: 'fonts.googleapis.com',
-        rel: 'stylesheet',
-        type: 'text/css'
-    }, null, document.getElementsByTagName('head')[0]);*/
-
     Highcharts.setOptions({
         colors: ['#E0218A', '#ED5C9B', '#F18DBC', '#F7B9D7', '#FACDE5'],
-
-        style: {
-            fontFamily: 'Geologica, sans-serif'
-        }
     });
 
     const testChart1 = Highcharts.chart('testChart1', {
@@ -18,14 +8,14 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'bar'
         },
         title: {
-            text: 'Test Chart 1'
+            text: 'Test Chart 1',
         },
         xAxis: {
             categories: ['Category 1', 'Category 2', 'Category 3']
         },
         yAxis: {
             title: {
-                text: 'Category Quantities'
+                text: 'Category Quantities',
             }
         },
         series: [{
@@ -59,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
             panKey: 'shift'
         },
         title: {
-            text: 'Test Chart 2'
+            text: 'Test Chart 2',
         },
         tooltip: {
             valueSuffix: '%'

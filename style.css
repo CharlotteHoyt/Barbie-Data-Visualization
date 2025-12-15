@@ -43,3 +43,8 @@ html {
     background-color: #FFFFFF;
     padding: 20px;
 }
+
+.highcharts-root {
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px !important;
+}
