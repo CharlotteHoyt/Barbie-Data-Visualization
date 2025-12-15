@@ -191,13 +191,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 data: [
                     {
                         name: 'Female',
-                        /*y: 311*/
-                        y: (311 / 522) * 100
+                        y: Math.round(((311 / 522) * 100) * 100) / 100
                     },
                     {
                         name: 'Male',
-                        /*y: 211*/
-                        y: (211 / 522) * 100
+                        y: Math.round(((211 / 522) * 100) * 100) / 100
                     },
                 ]
             }
