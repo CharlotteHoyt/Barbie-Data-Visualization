@@ -1,6 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
+    /*Highcharts.createElement('link', {
+        href: 'fonts.googleapis.com',
+        rel: 'stylesheet',
+        type: 'text/css'
+    }, null, document.getElementsByTagName('head')[0]);*/
+
     Highcharts.setOptions({
-        colors: ['#E0218A', '#ED5C9B', '#F18DBC', '#F7B9D7', '#FACDE5']
+        colors: ['#E0218A', '#ED5C9B', '#F18DBC', '#F7B9D7', '#FACDE5'],
+
+        style: {
+            fontFamily: 'Geologica, sans-serif'
+        }
     });
 
     const testChart1 = Highcharts.chart('testChart1', {
