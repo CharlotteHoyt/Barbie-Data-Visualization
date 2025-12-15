@@ -6,9 +6,14 @@ from colorama import Fore
 colorama.init(autoreset = True)
 
 file_name = 'data.csv'
-df = pd.read_csv(file_name)
+df_unfiltered = pd.read_csv(file_name)
 
-print(Fore.BLACK + Fore.MAGENTA + "DATA:")
+print(Fore.BLACK + Fore.MAGENTA + "DATA BEFORE FILTERING:")
+print(df_unfiltered)
+
+df = df_unfiltered[df_unfiltered['Race'] == 'Human']
+
+print(Fore.BLACK + Fore.MAGENTA + "\nDATA AFTER FILTERING:")
 print(df)
 
 # Skin Tone
