@@ -2,15 +2,14 @@ import pandas as pd
 # import matplotlib.pyplot as plt
 import colorama 
 from colorama import Fore
-# import numpy as np
 
 colorama.init(autoreset = True)
 
 file_name = 'data.csv'
 df = pd.read_csv(file_name)
 
-# numpy_array = df.to_numpy()
-# print(numpy_array)
+print(Fore.BLACK + Fore.MAGENTA + "DATA:")
+print(df)
 
 # Skin Tone
 print(Fore.BLACK + Fore.MAGENTA + "\nSKIN TONE:")
