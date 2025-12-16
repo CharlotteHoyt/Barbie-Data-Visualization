@@ -84,32 +84,38 @@ document.addEventListener('DOMContentLoaded', function () {
         chart: {
             type: 'bar'
         },
+        plotOptions: {
+            bar: {
+                colorByPoint: true
+            }
+        },
         title: {
             text: 'Eye Color',
         },
         xAxis: {
-            categories: ['Category 1', 'Category 2', 'Category 3']
+            categories: ['Blue', 
+                         'Green', 
+                         'Deep', 
+                         'Brown', 
+                         'Deep Blue', 
+                         'Purple', 
+                         'Black',
+                         'Hazel',
+                         'Light Blue',
+                         'Light Brown',
+                         'Light Green',
+                         'Light Teal',
+                         'Gray',
+                         'Teal']
         },
         yAxis: {
             title: {
-                text: 'Category Quantities',
+                text: 'Number of Characters With Eye Color',
             }
         },
         series: [{
-            name: 'Item 1',
-            data: [1, 0, 4]
-        }, {
-            name: 'Item 2',
-            data: [5, 7, 3]
-        }, {
-            name: 'Item 3',
-            data: [2, 4, 6]
-        }, {
-            name: 'Item 4',
-            data: [1, 5, 7]
-        }, {
-            name: 'Item 5',
-            data: [2, 4, 8]
+            name: 'Count',
+            data: [180, 58, 5, 164, 5, 3, 1, 1, 6, 9, 3, 3, 3, 3]
         }]
     });
 
@@ -117,32 +123,67 @@ document.addEventListener('DOMContentLoaded', function () {
         chart: {
             type: 'bar'
         },
+        plotOptions: {
+            bar: {
+                colorByPoint: true
+            }
+        },
         title: {
             text: 'Hair Color',
         },
         xAxis: {
-            categories: ['Category 1', 'Category 2', 'Category 3']
+            categories: ['Blonde',
+                         'Brown', 
+                         'Silver',
+                         'Light Brown',
+                         'Gray',
+                         'Medium Brown',
+                         'Dark Brown',
+                         'Dark',
+                         'Redhair',
+                         'Light Gray',
+                         'Dark Gray',
+                         'Black',
+                         'Orange',
+                         'Dark Blonde',
+                         'Deep Brown',
+                         'Light Blonde',
+                         'Red',
+                         'White',
+                         'Purple',
+                         'Gray/White',
+                         'Purple/Orange',
+                         'Blue/Yellow',
+                         'Brown/Blue',
+                         'Blonde/Pink',
+                         'Red/Orange',
+                         'Dark Brown/Pink',
+                         'Dark Red',
+                         'Pale Blonde',
+                         'Blue/Silver',
+                         'Hazel',
+                         'Violet/Pink',
+                         'Light Gray/White',
+                         'Brown/Purple',
+                         'Pink',
+                         'Dark White',
+                         'Green',
+                         'Blue',
+                         'Dark/Blue',
+                         'Dark Pink',
+                         'Brown/Pink',
+                         'Brown/Blonde',
+                         'Rainbow'
+                        ]
         },
         yAxis: {
             title: {
-                text: 'Category Quantities',
+                text: 'Number of Characters With Hair Color',
             }
         },
         series: [{
-            name: 'Item 1',
-            data: [1, 0, 4]
-        }, {
-            name: 'Item 2',
-            data: [5, 7, 3]
-        }, {
-            name: 'Item 3',
-            data: [2, 4, 6]
-        }, {
-            name: 'Item 4',
-            data: [1, 5, 7]
-        }, {
-            name: 'Item 5',
-            data: [2, 4, 8]
+            name: 'Count',
+            data: [130, 143, 2, 10, 28, 1, 22, 35, 18, 7, 10, 1, 1, 3, 1, 6, 3, 4, 5, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1]
         }]
     });
 
