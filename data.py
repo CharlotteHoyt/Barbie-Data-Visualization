@@ -28,9 +28,6 @@ for value in df['Skin Tone'].tolist():
         index = skin_tone_values.index(value)
         skin_tone_values_count[index] += 1
 
-# print(skin_tone_values)
-# print(skin_tone_values_count)
-
 index = 0
 for value in skin_tone_values:
     if not (value == "nan"):
@@ -49,9 +46,6 @@ for value in df['Eyes'].tolist():
     else:
         index = eye_color_values.index(value)
         eye_color_values_count[index] += 1
-
-# print(eye_color_values)
-# print(eye_color_values_count)
 
 index = 0
 for value in eye_color_values:
@@ -72,9 +66,6 @@ for value in df['Hair'].tolist():
         index = hair_values.index(value)
         hair_values_count[index] += 1
 
-# print(hair_values)
-# print(hair_values_count)
-
 index = 0
 for value in hair_values:
     if not (value == "nan"):
@@ -94,9 +85,6 @@ for value in df['Gender'].tolist():
         index = gender_values.index(value)
         gender_values_count[index] += 1
 
-# print(gender_values)
-# print(gender_values_count)
-
 index = 0
 for value in gender_values:
     if not (value == "nan"):
@@ -115,9 +103,6 @@ for value in df['Race'].tolist():
     else:
         index = race_values.index(value)
         race_values_count[index] += 1
-
-# print(race_values)
-# print(race_values_count)
 
 index = 0
 for value in race_values:
