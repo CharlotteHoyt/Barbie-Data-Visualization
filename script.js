@@ -115,10 +115,10 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         series: [{
             name: 'Count',
-            dataSorting: {
+            /*dataSorting: {
                    enabled: true,
                    sortKey: 'y'
-            },
+            },*/
             data: [180, // Blue
                    58, // Green
                    5, // Deep
@@ -201,10 +201,10 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         series: [{
             name: 'Count',
-            dataSorting: {
+            /*dataSorting: {
                    enabled: true,
                    sortKey: 'y'
-            },
+            },*/
             data: [130, // Blonde
                    143, // Brown
                    2, // Silver
