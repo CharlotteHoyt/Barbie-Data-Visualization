@@ -93,20 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
             text: 'Eye Color',
         },
         xAxis: {
-            categories: ['Blue', 
-                         'Green', 
-                         'Deep', 
-                         'Brown', 
-                         'Deep Blue', 
-                         'Purple', 
-                         'Black',
-                         'Hazel',
-                         'Light Blue',
-                         'Light Brown',
-                         'Light Green',
-                         'Light Teal',
-                         'Gray',
-                         'Teal']
+            type: 'category'
         },
         yAxis: {
             title: {
@@ -115,24 +102,25 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         series: [{
             name: 'Count',
-            /*dataSorting: {
+            dataSorting: {
                    enabled: true,
                    sortKey: 'y'
-            },*/
-            data: [180, // Blue
-                   58, // Green
-                   5, // Deep
-                   164, // Brown
-                   5, // Deep Blue
-                   3, // Purple
-                   1, // Black
-                   1, // Hazel
-                   6, // Light Blue
-                   9, // Light Brown
-                   3, // Light Green
-                   3, // Light Teal
-                   3, // Gray
-                   3 // Teal
+            },
+            data: [
+                   { name: 'Blue', y: 180 },
+                   { name: 'Green', y: 58 }, 
+                   { name: 'Deep', y: 5 },
+                   { name: 'Brown', y: 164 },
+                   { name: 'Deep Blue', y: 5 },
+                   { name: 'Purple', y: 3 },
+                   { name: 'Black', y: 1 },
+                   { name: 'Hazel', y: 1 },
+                   { name: 'Light Blue', y: 6 },
+                   { name: 'Light Brown', y: 9 },
+                   { name: 'Light Green', y: 3 },
+                   { name: 'Light Teal', y: 3 },
+                   { name: 'Gray', y: 3 },
+                   { name: 'Teal', y: 3 }
                   ]
         }]
     });
@@ -150,49 +138,7 @@ document.addEventListener('DOMContentLoaded', function () {
             text: 'Hair Color',
         },
         xAxis: {
-            categories: ['Blonde',
-                         'Brown', 
-                         'Silver',
-                         'Light Brown',
-                         'Gray',
-                         'Medium Brown',
-                         'Dark Brown',
-                         'Dark',
-                         'Redhair',
-                         'Light Gray',
-                         'Dark Gray',
-                         'Black',
-                         'Orange',
-                         'Dark Blonde',
-                         'Deep Brown',
-                         'Light Blonde',
-                         'Red',
-                         'White',
-                         'Purple',
-                         'Gray/White',
-                         'Purple/Orange',
-                         'Blue/Yellow',
-                         'Brown/Blue',
-                         'Blonde/Pink',
-                         'Red/Orange',
-                         'Dark Brown/Pink',
-                         'Dark Red',
-                         'Pale Blonde',
-                         'Blue/Silver',
-                         'Hazel',
-                         'Violet/Pink',
-                         'Light Gray/White',
-                         'Brown/Purple',
-                         'Pink',
-                         'Dark White',
-                         'Green',
-                         'Blue',
-                         'Dark/Blue',
-                         'Dark Pink',
-                         'Brown/Pink',
-                         'Brown/Blonde',
-                         'Rainbow'
-                        ]
+            type: 'category'
         },
         yAxis: {
             title: {
@@ -201,52 +147,53 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         series: [{
             name: 'Count',
-            /*dataSorting: {
+            dataSorting: {
                    enabled: true,
                    sortKey: 'y'
-            },*/
-            data: [130, // Blonde
-                   143, // Brown
-                   2, // Silver
-                   10, // Light Brown
-                   28, // Gray
-                   1, // Medium Brown
-                   22, // Dark Brown
-                   35, // Dark
-                   18, // Redhair
-                   7, // Light Gray
-                   10, //Dark Gray
-                   1, // Black
-                   1, // Orange
-                   3, // Dark Blonde
-                   1, // Deep Brown
-                   6, // Light Blonde
-                   3, // Red
-                   4, // White
-                   5, // Purple
-                   1, // Gray/White
-                   1, // Purple/Orange
-                   1, // Blue/Yellow
-                   1, // Brown/Blue
-                   1, // Blonde/Pink
-                   1, // Red/Orange
-                   1, // Dark Brown/Pink
-                   2, // Dark Red
-                   1, // Pale Blonde
-                   1, // Blue/Silver
-                   1, // Hazel
-                   1, // Violet/Pink
-                   1, // Light Gray/White
-                   3, // Brown/Purple
-                   3, // Pink
-                   1, // Dark/White
-                   1, // Green
-                   1, // Blue
-                   1, // Dark/Blue
-                   1, // Dark Pink
-                   1, // Brown/Pink
-                   1, // Brown/Blonde
-                   1 // Rainbow
+            },
+            data: [
+                    { name: 'Blonde', y: 130 },
+                    { name: 'Brown', y: 143 },
+                    { name: 'Silver', y: 2 },
+                    { name: 'Light Brown', y: 10 },
+                    { name: 'Gray', y: 28 },
+                    { name: 'Medium Brown', y: 1 },
+                    { name: 'Dark Brown', y: 1 },
+                    { name: 'Dark', y: 35 },
+                    { name: 'Redhair', y: 18 },
+                    { name: 'Light Gray', y: 7 },
+                    { name: 'Dark Gray', y: 10 },
+                    { name: 'Black', y: 1 },
+                    { name: 'Orange', y: 1 },
+                    { name: 'Dark Blonde', y: 3 },
+                    { name: 'Deep Brown', y: 1 },
+                    { name: 'Light Blonde', y: 6 },
+                    { name: 'Red', y: 3 },
+                    { name: 'White', y: 4 },
+                    { name: 'Purple', y: 5 },
+                    { name: 'Gray/White', y: 1 },
+                    { name: 'Purple/Orange', y: 1 },
+                    { name: 'Blue/Yellow', y: 1 },
+                    { name: 'Brown/Blue', y: 1 },
+                    { name: 'Blonde/Pink', y: 1 },
+                    { name: 'Red/Orange', y: 1 },
+                    { name: 'Dark Brown/Pink', y: 1 },
+                    { name: 'Dark Red', y: 2 },
+                    { name: 'Pale Blonde', y: 1 },
+                    { name: 'Blue/Silver', y: 1 },
+                    { name: 'Hazel', y: 1 },
+                    { name: 'Violet/Pink', y: 1 },
+                    { name: 'Light Gray/White', y: 1 },
+                    { name: 'Brown/Purple', y: 3 },
+                    { name: 'Pink', y: 3 },
+                    { name: 'Dark/White', y: 1 },
+                    { name: 'Green', y: 1 },
+                    { name: 'Blue', y: 1 },
+                    { name: 'Dark/Blue', y: 1 },
+                    { name: 'Dark Pink', y: 1 },
+                    { name: 'Brown/Pink', y: 1 },
+                    { name: 'Brown/Blonde', y: 1 },
+                    { name: 'Rainbow', y: 1 },
                   ]
         }]
     });
