@@ -7,3 +7,6 @@ Barbie font generated with [TextStudio](https://www.textstudio.com/).
 
 
 Barbie color palette from [SchemeColor](https://www.schemecolor.com/barbie-doll-pinks.php).
+
+
+Check out the project [here](https://charlottehoyt.github.io/Barbie-Data-Visualization/)!
