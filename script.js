@@ -64,12 +64,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         y: Math.round(((44 / 462) * 100) * 100) / 100
                     },
                     {
-                        name: 'Medium Deep',
-                        y: Math.round(((13 / 462) * 100) * 100) / 100
-                    },
-                    {
                         name: 'Deep',
                         y: Math.round(((17 / 462) * 100) * 100) / 100
+                    },
+                    {
+                        name: 'Medium Deep',
+                        y: Math.round(((13 / 462) * 100) * 100) / 100
                     },
                     {
                         name: 'Green',
