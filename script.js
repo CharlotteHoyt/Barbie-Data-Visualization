@@ -116,10 +116,24 @@ document.addEventListener('DOMContentLoaded', function () {
         series: [{
             name: 'Count',
             dataSorting: {
-                   enabled: true, // Enable sorting
-                   sortKey: 'y' // Sort by the y-value (bar length). 
+                   enabled: true,
+                   sortKey: 'y'
             },
-            data: [180, 58, 5, 164, 5, 3, 1, 1, 6, 9, 3, 3, 3, 3]
+            data: [180, // Blue
+                   58, // Green
+                   5, // Deep
+                   164, // Brown
+                   5, // Deep Blue
+                   3, // Purple
+                   1, // Black
+                   1, // Hazel
+                   6, // Light Blue
+                   9, // Light Brown
+                   3, // Light Green
+                   3, // Light Teal
+                   3, // Gray
+                   3 // Teal
+                  ]
         }]
     });
 
@@ -188,10 +202,52 @@ document.addEventListener('DOMContentLoaded', function () {
         series: [{
             name: 'Count',
             dataSorting: {
-                   enabled: true, // Enable sorting
-                   sortKey: 'y' // Sort by the y-value (bar length). 
+                   enabled: true,
+                   sortKey: 'y'
             },
-            data: [130, 143, 2, 10, 28, 1, 22, 35, 18, 7, 10, 1, 1, 3, 1, 6, 3, 4, 5, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1]
+            data: [130, // Blonde
+                   143, // Brown
+                   2, // Silver
+                   10, // Light Brown
+                   28, // Gray
+                   1, // Medium Brown
+                   22, // Dark Brown
+                   35, // Dark
+                   18, // Redhair
+                   7, // Light Gray
+                   10, //Dark Gray
+                   1, // Black
+                   1, // Orange
+                   3, // Dark Blonde
+                   1, // Deep Brown
+                   6, // Light Blonde
+                   3, // Red
+                   4, // White
+                   5, // Purple
+                   1, // Gray/White
+                   1, // Purple/Orange
+                   1, // Blue/Yellow
+                   1, // Brown/Blue
+                   1, // Blonde/Pink
+                   1, // Red/Orange
+                   1, // Dark Brown/Pink
+                   2, // Dark Red
+                   1, // Pale Blonde
+                   1, // Blue/Silver
+                   1, // Hazel
+                   1, // Violet/Pink
+                   1, // Light Gray/White
+                   3, // Brown/Purple
+                   3, // Pink
+                   1, // Dark/White
+                   1, // Green
+                   1, // Blue
+                   1, // Dark/Blue
+                   1, // Dark Pink
+                   1, // Brown/Pink
+                   1, // Brown/Blonde
+                   1 // Rainbow
+                  ]
         }]
     });
 
