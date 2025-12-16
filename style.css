@@ -46,6 +46,8 @@ html {
 
 #hairColor {
     min-height: 700px
+
+    /*min-height: 700px;*/
 }
 
 .highcharts-root {

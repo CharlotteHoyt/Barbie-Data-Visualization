@@ -1,5 +1,4 @@
 import pandas as pd
-# import matplotlib.pyplot as plt
 import colorama 
 from colorama import Fore
 
@@ -104,7 +103,7 @@ for value in gender_values:
         print(f"{value}: {gender_values_count[index]}")
     index += 1
 
-# Race (Filter by Human)
+# Race
 print(Fore.BLACK + Fore.MAGENTA + "\nRACE:")
 race_values = []
 race_values_count = []

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
         colors: ['#E0218A', '#ED5C9B', '#F18DBC', '#F7B9D7', '#FACDE5'],
     });
 
-    /*Actual Charts*/
+    /*Skin Tone Chart*/
     const skinTone = Highcharts.chart('skinTone', {
         chart: {
             type: 'pie',
@@ -80,6 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
         ]
     });
 
+    /*Eye Color Chart*/
     const eyeColor = Highcharts.chart('eyeColor', {
         chart: {
             type: 'bar'
@@ -97,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         yAxis: {
             title: {
-                text: 'Number of Characters With Eye Color',
+                text: 'Number of Characters',
             }
         },
         series: [{
@@ -125,6 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }]
     });
 
+    /*Hair Color Chart*/
     const hairColor = Highcharts.chart('hairColor', {
         chart: {
             type: 'bar'
@@ -142,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         yAxis: {
             title: {
-                text: 'Number of Characters With Hair Color',
+                text: 'Number of Characters',
             }
         },
         series: [{
@@ -160,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     { name: 'Medium Brown', y: 1 },
                     { name: 'Dark Brown', y: 1 },
                     { name: 'Dark', y: 35 },
-                    { name: 'Redhair', y: 18 },
+                    { name: 'Red', y: 21 },
                     { name: 'Light Gray', y: 7 },
                     { name: 'Dark Gray', y: 10 },
                     { name: 'Black', y: 1 },
@@ -168,7 +170,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     { name: 'Dark Blonde', y: 3 },
                     { name: 'Deep Brown', y: 1 },
                     { name: 'Light Blonde', y: 6 },
-                    { name: 'Red', y: 3 },
                     { name: 'White', y: 4 },
                     { name: 'Purple', y: 5 },
                     { name: 'Gray/White', y: 1 },
@@ -198,6 +199,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }]
     });
 
+    /*Gender Chart*/
     const gender = Highcharts.chart('gender', {
         chart: {
             type: 'pie',
