@@ -115,6 +115,10 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         series: [{
             name: 'Count',
+            dataSorting: {
+                   enabled: true, // Enable sorting
+                   sortKey: 'y' // Sort by the y-value (bar length). 
+            },
             data: [180, 58, 5, 164, 5, 3, 1, 1, 6, 9, 3, 3, 3, 3]
         }]
     });
@@ -183,6 +187,10 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         series: [{
             name: 'Count',
+            dataSorting: {
+                   enabled: true, // Enable sorting
+                   sortKey: 'y' // Sort by the y-value (bar length). 
+            },
             data: [130, 143, 2, 10, 28, 1, 22, 35, 18, 7, 10, 1, 1, 3, 1, 6, 3, 4, 5, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1]
         }]
     });
