@@ -2,6 +2,7 @@
     margin: 0px;
 }
 
+/*Set Background Color*/
 body {
     background-color: #FACDE5;
 }
@@ -23,6 +24,7 @@ html {
     user-select: none; 
 }
 
+/*Style Header on Mobile*/
 @media screen and (max-width: 1000px) {
     #header-image{
         width: 95%;
@@ -44,12 +46,12 @@ html {
     padding: 20px;
 }
 
+/*Style Hair Color Bar Chart*/
 #hairColor {
-    min-height: 700px
-
-    /*min-height: 700px;*/
+    min-height: 850px;
 }
 
+/*Set Font for Highcharts Visualizations*/
 .highcharts-root {
     font-family: 'Karla', sans-serif !important;
     font-size: 16px !important;
