@@ -52,24 +52,28 @@ document.addEventListener('DOMContentLoaded', function () {
                 colorByPoint: true,
                 data: [
                     {
-                        name: 'Category 1',
-                        y: 33.2
+                        name: 'Light Medium',
+                        y: Math.round(((330 / 462) * 100) * 100) / 100
                     },
                     {
-                        name: 'Category 2',
-                        y: 22.9
+                        name: 'Light',
+                        y: Math.round(((57 / 462) * 100) * 100) / 100
                     },
                     {
-                        name: 'Category 3',
-                        y: 11.1
+                        name: 'Medium',
+                        y: Math.round(((44 / 462) * 100) * 100) / 100
                     },
                     {
-                        name: 'Category 4',
-                        y: 7.4
+                        name: 'Medium Deep',
+                        y: Math.round(((13 / 462) * 100) * 100) / 100
                     },
                     {
-                        name: 'Category 5',
-                        y: 25.4
+                        name: 'Deep',
+                        y: Math.round(((17 / 462) * 100) * 100) / 100
+                    },
+                    {
+                        name: 'Green',
+                        y: Math.round(((1 / 462) * 100) * 100) / 100
                     },
                 ]
             }
